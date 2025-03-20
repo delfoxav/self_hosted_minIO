@@ -5,11 +5,10 @@ from minio.error import S3Error
 from sklearn.datasets import load_iris
 import pandas as pd
 import os
+from dotenv import load_dotenv
 
-# --- Replace with your own MinIO server and credentials ---
-MINIO_URL = "your_minio_url:port"
-ACCESS_KEY = "your_access_key"
-SECRET_KEY = "your_secret_key"
+#---- Get the MinIO credential from an env file ----
+load_dotenv()
 
 
 # create a MinIO client with the MinIO server information
