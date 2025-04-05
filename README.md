@@ -1,4 +1,4 @@
-This repository contains all the code used in the article [Create a self hosted cloud S3 storage with MinIO](google.com).
+This repository contains all the code used in the article [Create a self hosted cloud S3 storage with MinIO](https://delfoxav.github.io/posts/create-a-self-hosted-cloud-s3-storage-with-minio/).
 
 ## Shown snippets in the article:
 All the shown snippet in the article are stored in [ressources/](https://github.com/delfoxav/self_hosted_minIO/tree/main/ressources)
